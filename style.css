@@ -1,0 +1,66 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial;
+}
+
+#map-canvas {
+	float:left;
+	height: 75%;
+	width: 100%;
+}
+#content-pane {
+	float:left;
+	width:100%;
+}
+
+#inputs {
+	width:100%;
+	height:20%;
+}
+
+#inputs label {
+	padding-right: 15px;
+}
+
+
+#inputs ul {
+	width:100%;
+	list-style-type: none;
+}
+
+#inputs li {
+	width:49%;
+	display:inline-block;
+}
+
+.mileage_input {
+	width:80%;
+	padding:7px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+}
+
+.mileage_button {
+	width:50%;
+	height:35px;
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+	margin-bottom: 20px;
+}
+
+#outputDiv {
+	font-size: 20px;
+	text-align: center;
+	float:left;
+	width:40%;   
+	margin-top: 20px; 
+}
+
+.lss_logo {
+	width:200px;
+	float:right;
+}
