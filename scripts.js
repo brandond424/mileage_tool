@@ -61,9 +61,12 @@ function callback(response, status) {
       addMarker(origins[i], false);
       for (var j = 0; j < results.length; j++) {
         addMarker(destinations[j], true);
-        outputDiv.innerHTML += origins[i] + ' to ' + destinations[j]
-            + ': ' + results[j].distance.text + ' in '
-            + results[j].duration.text + '<br>';
+
+        // outputDiv.innerHTML += origins[i] + ' to ' + destinations[j]
+        //     + '<br>: ' + results[j].distance.text + ' in '
+        //     + results[j].duration.text + '<br>';
+
+        outputDiv.innerHTML += results[j].distance.text + ' in ' + results[j].duration.text;
       }
     }
   }
